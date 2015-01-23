@@ -2,13 +2,13 @@ Named-Router
 =================
 Express 4 middleware for named routes.
 
-#####Install
+####Install
 
 ```
 npm install named-router
 ```
 
-#####How to use
+####How to use
 
 1\. First setup your router with all your routes:
 ```
@@ -39,5 +39,5 @@ hbs.registerHelper('link_to', function(name, params) {
 <a href="{{link_to 'home'}}">Home</a>
 ```
 
-#####Credit 
+####Credit 
 Credit to Allube's [named-routes](https://github.com/alubbe/named-routes) and antitoxic's [node-reversable-router](https://github.com/web-napopa/node-reversable-router). They did all the hard work, I just wrapped it up.
