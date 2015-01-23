@@ -1,0 +1,29 @@
+{
+  "name": "named-router",
+  "version": "1.0.0",
+  "description": "Express 4 middleware extending base router with named routes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robgraeber/named-router"
+  },
+  "keywords": [
+    "express",
+    "router",
+    "express",
+    "4",
+    "django",
+    "ruby",
+    "on",
+    "rails"
+  ],
+  "author": "Rob Graeber <noreply@gmail.com> (https://github.com/robgraeber)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.11.1",
+    "named-routes": "^1.1.4"
+  }
+}
