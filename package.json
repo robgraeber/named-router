@@ -1,7 +1,7 @@
 {
   "name": "named-router",
-  "version": "1.0.0",
-  "description": "Express 4 middleware extending base router with named routes",
+  "version": "1.0.3",
+  "description": "Express 4 middleware for named routes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,9 @@
     "django",
     "ruby",
     "on",
-    "rails"
+    "rails",
+    "named",
+    "routes"
   ],
   "author": "Rob Graeber <noreply@gmail.com> (https://github.com/robgraeber)",
   "license": "ISC",
