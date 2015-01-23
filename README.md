@@ -1,6 +1,6 @@
 Named-Router
 =================
-Express 4 middleware extending built-in router with named routes
+Express 4 middleware for named routes
 
 #####How to use
 
