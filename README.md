@@ -20,8 +20,7 @@ app.use(router);
 
 2\. Create a template helper for your favorite templating engine. For hbs:
 ```
-var hbs = require('hbs'),
-    router = require('./router');
+var hbs = require('hbs');
 
 hbs.registerHelper('link_to', function(name, params) {
     if (typeof params === 'string')
