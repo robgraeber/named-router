@@ -40,4 +40,4 @@ hbs.registerHelper('link_to', function(name, params) {
 ```
 
 ####Credit 
-Credit to Allube's [named-routes](https://github.com/alubbe/named-routes) and antitoxic's [node-reversable-router](https://github.com/web-napopa/node-reversable-router). They did all the hard work, I just wrapped it up.
+Credit to Allube's [named-routes](https://github.com/alubbe/named-routes) and antitoxic's [node-reversable-router](https://github.com/web-napopa/node-reversable-router).
