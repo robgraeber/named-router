@@ -24,19 +24,19 @@ router.get('/', 'home', function(req, res) {
 app.use(router);
 ```
 
-2\. Create a template helper for your favorite templating engine. For hbs:
+2\. Configure your template engine. For nunjucks:
 ```
-var hbs = require('hbs');
+var Nunjucks = require('nunjucks');
 
-hbs.registerHelper('link_to', function(name, params) {
-    if (typeof params === 'string')
-        params = JSON.parse(params);
-    return router.build(name, params);
+var env = Nunjucks.configure(__dirname+'/templates', {
+    autoescape: true,
+    express: app
 });
+env.addGlobal('linkTo', name => Router.build(name, arguments));
 ```
 3\. Profit!
 ```
-<a href="{{link_to 'home'}}">Home</a>
+<a href="{{ linkTo('home') }}">Home</a>
 ```
 
 ####Credit 
