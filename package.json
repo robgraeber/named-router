@@ -1,6 +1,6 @@
 {
   "name": "named-router",
-  "version": "1.0.3",
+  "version": "2.0.1",
   "description": "Express 4 middleware for named routes",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.11.1",
-    "named-routes": "^1.1.4"
+    "named-routes": "^2.0.3"
   }
 }
